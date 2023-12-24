@@ -123,6 +123,11 @@ section p {
 
 @media (max-width: 768px) {
 
+  main h2, span {
+    display: flex;
+    justify-content: center;
+  }
+
   .content2 {
     display: flex;
     flex-direction: column;
@@ -133,6 +138,10 @@ section p {
   .msg {
     padding-bottom: 2rem;
     margin-bottom: 1rem;
+  }
+
+  .msg p {
+    text-align: center;
   }
 
   .árvore {

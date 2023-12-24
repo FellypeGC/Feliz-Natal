@@ -153,6 +153,12 @@ section p {
     max-width: 316px;
   }
 
+  section h1 {
+    color: #000;
+    text-align: center;
+    padding: .5rem;
+  }
+
   #presente img {
     width: 300px;
   }
